@@ -138,7 +138,7 @@ div, form, article, input {
 }
 
 .section-producers__content {
-  /* outline: 2px solid lime; */
+  outline: 2px solid lime;
   margin: 0.5%;
   padding: 1%;
   width: 85vw;
@@ -407,10 +407,6 @@ div, form, article, input {
 
 
 
-
-
-
-
 /* Стили подвала */
 .main-footer {
   /* outline: 2px solid green; */
@@ -428,4 +424,52 @@ div, form, article, input {
 .main-footer__content h2 {
   text-align: center;
   color: purple;
+}
+
+
+
+/* Стили других страниц  */
+
+/* Стили верхней секции с фото */
+.top-section {
+  /* outline: 2px solid red; */
+  height: 35vh;
+}
+
+.section-producers__header, .section-clients__header, .section-vacancies__header {
+  /* outline: 2px solid lime; */
+  margin: 0.5%;
+  padding: 1%;
+  width: 85vw;
+  display: grid;
+}
+
+.section-producers__header h2, .section-clients__header h2, .section-vacancies__header h2{
+  color: #fff;
+  background-color: #00A758;
+  font-size: 300%;
+  padding-left: 3%;
+}
+
+.section-producers__content--suppliers-page {
+  /* outline: 2px solid lime; */
+  margin: 0.5%;
+  padding: 1%;
+  width: 85vw;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 20vw));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2%;
+  justify-content: space-around;
+}
+
+.vacancy-name {
+  font-weight: bold;
+  font-size: 140%;
+  margin-top: 2%;
+}
+
+.vacancy-description {
+  /* font-weight: bold; */
+  font-size: 120%;
 }

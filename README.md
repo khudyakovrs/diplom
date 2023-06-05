@@ -1,1 +1,1 @@
-# khudyakovrs.github.io
+# khudyakov.github.io
